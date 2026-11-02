@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">streamingAccount</value>
+  <value name="node_nsName">project.vcflow.streaming.connections:EmbeddedMessaging</value>
+  <value name="node_pkg">VCFlowProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">VCFlowProject.project.vcflow.streaming.connections:EmbeddedMessaging</value>
+  <value name="connectionName">EmbeddedMessaging</value>
+  <value name="description">This is the default embedded messaging account</value>
+  <value name="providerURI">nhp://stage00-dev6222501-um-0.int-dev6222501.svc.cluster.local:9000/</value>
+  <value name="clientId">EMc0651bf07e554ed99a1988f20015210f</value>
+  <value name="securityProtocol"></value>
+  <value name="keystoreAlias"></value>
+  <value name="keystoreKeyAlias"></value>
+  <value name="truststoreAlias"></value>
+  <value name="additionalProperties"></value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Munatri.Baruah@ibm.com</value>
+    <value name="modifiedBy">Munatri.Baruah@ibm.com</value>
+    <value name="createdDate">2026-11-02T02:02:51.846607964Z</value>
+    <value name="lastModifiedDate">2026-11-02T02:02:51.846607964Z</value>
+  </record>
+</Values>
