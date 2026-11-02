@@ -2,6 +2,8 @@ version: "1.0"
 info:
   model: int-scaffold
 packages:
+- name: customPackageDefault2Nov
+  gitBranch: master
 - name: customPackageGit2Nov
   version: "1.0"
   gitServerName: GithubOrigin
@@ -20,6 +22,8 @@ services:
     version: "1.0"
   - name: customPackageGit2Nov
     version: "1.0"
+  - name: customPackageDefault2Nov
+    version: "1.0"
   - name: WmPublic
     version: 12.1.0.0.1322
 - serviceName: pub.flow:debugLog
@@ -31,6 +35,8 @@ services:
   - name: VCFlowProject
     version: "1.0"
   - name: customPackageGit2Nov
+    version: "1.0"
+  - name: customPackageDefault2Nov
     version: "1.0"
   - name: WmPublic
     version: 12.1.0.0.1322
