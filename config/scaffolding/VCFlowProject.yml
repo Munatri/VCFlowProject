@@ -3,6 +3,7 @@ info:
   model: int-scaffold
 packages:
 - name: customPackageGit2Nov
+  version: "1.0"
   gitServerName: GithubOrigin
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
@@ -12,3 +13,20 @@ packages:
   gitUrl: https://github.com/Munatri
   gitUsername: Munatri
   gitBranch: main
+services:
+- serviceName: project.vcflow.integrations:dblog
+  packages:
+  - name: VCFlowProject
+    version: "1.0"
+  - name: customPackageGit2Nov
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1322
+- serviceName: project.vcflow.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: VCFlowProject
+    version: "1.0"
+  - name: customPackageGit2Nov
+    version: "1.0"
