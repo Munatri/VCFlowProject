@@ -6,7 +6,6 @@
     <value name="node_subtype">unknown</value>
     <value name="node_nsName">project.vcflow.documenttypes:d1</value>
     <value name="node_pkg">VCFlowProject</value>
-    <value name="node_comment"></value>
     <record name="node_hints" javaclass="com.wm.util.Values">
       <record name="revisionData" javaclass="com.wm.util.Values">
         <value name="createdBy">Munatri.Baruah@ibm.com</value>
@@ -14,13 +13,13 @@
         <number name="createdDate" type="Long">1793586220773</number>
         <value name="lastModifiedBy">Munatri.Baruah@ibm.com</value>
         <value name="lastModifiedByUserId">c25b4f266e4744a992417a655ab3ebb6</value>
-        <number name="lastModifiedDate" type="Long">1793586220773</number>
+        <number name="lastModifiedDate" type="Long">1793586227640</number>
       </record>
       <Boolean name="wMIODocTypeReplica">true</Boolean>
       <value name="createdBy">Munatri.Baruah@ibm.com</value>
       <value name="modifiedBy">Munatri.Baruah@ibm.com</value>
       <value name="createdDate">2026-11-02T02:23:40.789250861Z</value>
-      <value name="lastModifiedDate">2026-11-02T02:23:40.789250861Z</value>
+      <value name="lastModifiedDate">2026-11-02T02:23:47.643298249Z</value>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -49,5 +48,6 @@
       </record>
     </array>
     <value name="modifiable">true</value>
+    <value name="updateRSD">true</value>
   </record>
 </Values>
