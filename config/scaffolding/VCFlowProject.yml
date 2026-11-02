@@ -2,6 +2,11 @@ version: "1.0"
 info:
   model: int-scaffold
 packages:
+- name: customPackageGit2Nov
+  gitServerName: GithubOrigin
+  gitUrl: https://github.com/Munatri
+  gitUsername: Munatri
+  gitBranch: main
 - name: VCFlowProject
   gitServerName: GithubOrigin
   gitUrl: https://github.com/Munatri
