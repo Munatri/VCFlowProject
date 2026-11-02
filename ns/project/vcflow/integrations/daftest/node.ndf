@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Munatri.Baruah@ibm.com</value>
-    <value name="createdDate">2026-11-02T02:23:11.053978864Z</value>
-    <value name="lastModifiedDate">2026-11-02T02:23:11.053978864Z</value>
+    <value name="lastModifiedBy">Munatri.Baruah@ibm.com</value>
+    <value name="lastModifiedDate">2026-11-02T02:24:12.086451793Z</value>
     <value name="displayName">daftest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -70,6 +69,9 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
     <value name="modifiedBy">Munatri.Baruah@ibm.com</value>
