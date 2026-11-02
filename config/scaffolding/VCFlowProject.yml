@@ -3,6 +3,7 @@ info:
   model: int-scaffold
 packages:
 - name: customPackageDefault2Nov
+  version: "1.0"
   gitBranch: master
 - name: customPackageGit2Nov
   version: "1.0"
@@ -16,6 +17,20 @@ packages:
   gitUsername: Munatri
   gitBranch: main
 services:
+- serviceName: project.vcflow.integrations:daftest
+  packages:
+  - name: VCFlowProject
+    version: "1.0"
+  - name: customPackageGit2Nov
+    version: "1.0"
+  - name: customPackageDefault2Nov
+    version: "1.0"
+  - name: WmPublic
+    version: 12.1.0.0.1322
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1322
 - serviceName: project.vcflow.integrations:dblog
   packages:
   - name: VCFlowProject
